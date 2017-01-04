@@ -1,6 +1,6 @@
 # docker-jekyll
 
-[![](https://codeclou.github.io/doc/docker-image-size-46.svg?v2)](https://hub.docker.com/r/codeclou/docker-jekyll/tags/) [![](https://codeclou.github.io/doc/docker-from-alpine.svg)](https://alpinelinux.org/) [![](https://codeclou.github.io/doc/docker-run-as-non-root.svg)](https://docs.docker.com/engine/reference/builder/#/user)
+[![](https://codeclou.github.io/doc/badges/generated/docker-image-size-46.svg)](https://hub.docker.com/r/codeclou/docker-jekyll/tags/) [![](https://codeclou.github.io/doc/badges/generated/docker-from-alpine-linux.svg)](https://alpinelinux.org/) [![](https://codeclou.github.io/doc/badges/generated/docker-run-as-non-root.svg)](https://docs.docker.com/engine/reference/builder/#/user)
 
 Docker-Image to run [jekyll](https://jekyllrb.com/) version 3.
 
