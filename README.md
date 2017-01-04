@@ -1,6 +1,6 @@
 # docker-jekyll
 
-[![](https://codeclou.github.io/doc/docker-image-size-19.svg)](https://hub.docker.com/r/codeclou/docker-jekyll/tags/) [![](https://codeclou.github.io/doc/docker-from-alpine.svg)](https://alpinelinux.org/) [![](https://codeclou.github.io/doc/docker-run-as-non-root.svg)](https://docs.docker.com/engine/reference/builder/#/user)
+[![](https://codeclou.github.io/doc/docker-image-size-46.svg)](https://hub.docker.com/r/codeclou/docker-jekyll/tags/) [![](https://codeclou.github.io/doc/docker-from-alpine.svg)](https://alpinelinux.org/) [![](https://codeclou.github.io/doc/docker-run-as-non-root.svg)](https://docs.docker.com/engine/reference/builder/#/user)
 
 Docker-Image to run [jekyll](https://jekyllrb.com/) version 3.
 
@@ -10,7 +10,7 @@ Docker-Image to run [jekyll](https://jekyllrb.com/) version 3.
 
 ### Usage
 
-Put an alias in your `~.bash_profile`.
+Put an alias in your `~/.bash_profile` or `~/.bashrc`.
 
 ```
 alias jekyll='docker run --rm -it -p 4000:4000 -v $(pwd):/rubyapp/ codeclou/docker-jekyll:latest'
