@@ -4,9 +4,18 @@
 
 Docker-Image to run [jekyll](https://jekyllrb.com/) version 3.
 
-![](https://codeclou.github.io/doc/docker-warranty.svg?v5)
+-----
 
-----
+&nbsp;
+
+### Prerequisites
+
+ * Runs as non-root with fixed UID 10777 and GID 10777. See [howto prepare volume permissions](https://github.com/codeclou/doc/blob/master/docker/README.md).
+ * See [howto use SystemD for named Docker-Containers and system startup](https://github.com/codeclou/doc/blob/master/docker/README.md).
+
+-----
+
+&nbsp;
 
 ### Usage
 
@@ -25,9 +34,10 @@ jekyll serve --host 0.0.0.0
 
 Now open http://localhost:4000
 
-----
+-----
+&nbsp;
 
+### License, Liability & Support
 
-### License
-
-  * Dockerfile and Image is provided under [MIT License](https://github.com/codeclou/docker-jekyll/blob/master/LICENSE.md)
+ * [![](https://codeclou.github.io/doc/docker-warranty-notice.svg?v1)](https://github.com/codeclou/docker-jekyll/blob/master/LICENSE.md)
+ * Dockerfile and Image is provided under [MIT License](https://github.com/codeclou/docker-jekyll/blob/master/LICENSE.md)
